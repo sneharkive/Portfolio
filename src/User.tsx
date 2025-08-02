@@ -16,7 +16,7 @@ const ProjectInfo = [
     title: "Job Portal (Role-Based Access)",
     desc: "A full-stack job portal application featuring role-based authentication and authorization. Employers can post jobs, invite or reject applicants, schedule interviews, and offer jobs. They can also search and sort the applicant list based on skills, experience, and other filters. Applicants can create and update their profiles with personal details, years of experience, certifications, and skills. They can browse available job listings, apply for positions, and filter jobs based on relevance. Built with a modular backend, secure JWT-based login, and an intuitive, responsive frontend.",
     image: "JobPortal.png",
-    live: false,
+    live: true,
     technologies: [
       "React",
       "Spring Boot",
@@ -34,7 +34,7 @@ const ProjectInfo = [
     title: "AI Fitness App (Microservices)",
     desc: "A cloud-native AI-powered fitness tracking application built using Spring Cloud architecture. The app consists of four microservices managed by an Eureka Discovery Server and accessed via a centralized API Gateway. The AI engine tracks user activities, calculates calories burned, and provides personalized fitness and diet suggestions based on user history and progress. Designed for scalability, this app combines real-time analytics, intelligent recommendations, and modular service architecture for a seamless fitness experience.",
     image: "AIFitnessApp.png",
-    live: false,
+    live: true,
     technologies: [
       "Spring Boot",
       "Spring Cloud",
