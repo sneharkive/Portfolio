@@ -31,7 +31,7 @@ const ProjectInfo = [
     github: "https://github.com/sneharkive/JobPortal-NextRole",
   },
   {
-    title: "AI Fitness App (Microservices)",
+    title: "AI Fitness Tracker (Microservices)",
     desc: "A cloud-native AI-powered fitness tracking application built using Spring Cloud architecture. The app consists of four microservices managed by an Eureka Discovery Server and accessed via a centralized API Gateway. The AI engine tracks user activities, calculates calories burned, and provides personalized fitness and diet suggestions based on user history and progress. Designed for scalability, this app combines real-time analytics, intelligent recommendations, and modular service architecture for a seamless fitness experience.",
     image: "AIFitnessApp.png",
     live: true,

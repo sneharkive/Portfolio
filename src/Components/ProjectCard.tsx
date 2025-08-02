@@ -45,7 +45,7 @@ const ProjectCard = (props: any) => {
         </Card.Section>
 
         <Group justify="space-between" mt="xs" mb="xs">
-          <div className="!text-2xl gap-2 !font-bold !text-white flex items-center sm-mx:!text-xl">
+          <div className="!text-xl gap-2 !font-bold !text-white flex items-center sm-mx:!text-xl">
             {props.title}
             {props.live === true && (
               <Badge
@@ -57,7 +57,7 @@ const ProjectCard = (props: any) => {
                     className="!mr-0.5 !z-0"
                     color="red"
                     position="middle-end"
-                    size={7}
+                    size={5}
                     processing
                   ></Indicator>
                 }
@@ -79,7 +79,7 @@ const ProjectCard = (props: any) => {
         </Group>
         <Text
           className="!text-justify !text-sm xs-mx:!text-xs"
-          lineClamp={5}
+          lineClamp={4}
           size="sm"
           c="dimmed"
         >
