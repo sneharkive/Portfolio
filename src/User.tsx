@@ -12,23 +12,7 @@ const Info = {
 };
 
 const ProjectInfo = [
-  {
-    title: "URL Shortener App",
-    desc: "A full-stack URL shortener application built with React.js and Spring Boot, enabling users to create, manage, and track shortened URLs. It features secure authentication using JWT, allowing users to log in and manage their links privately. The backend stores data in a MySQL database, and the frontend displays real-time analytics using Chart.js—showing how many times each shortened URL has been accessed. The app includes form validation, responsive design, and intuitive user experience for seamless link management and tracking.",
-    image: "Shortify.png",
-    live: true,
-    technologies: [
-      "React",
-      "Spring Boot",
-      "MySQL",
-      "JWT",
-      "Chart.js",
-      "Tailwind",
-    ],
-    link: "https://superb-rabanadas-2c2d83.netlify.app/",
-    github: "https://github.com/sneharkive/Shortify",
-  },
-  {
+    {
     title: "Job Portal (Role-Based Access)",
     desc: "A full-stack job portal application featuring role-based authentication and authorization. Employers can post jobs, invite or reject applicants, schedule interviews, and offer jobs. They can also search and sort the applicant list based on skills, experience, and other filters. Applicants can create and update their profiles with personal details, years of experience, certifications, and skills. They can browse available job listings, apply for positions, and filter jobs based on relevance. Built with a modular backend, secure JWT-based login, and an intuitive, responsive frontend.",
     image: "JobPortal.png",
@@ -43,8 +27,8 @@ const ProjectInfo = [
       "Tailwind",
       "Spring Security",
     ],
-    link: "",
-    github: "https://github.com/YourUsername/job-portal-app",
+    link: "https://jobportalfrontend-4p43.onrender.com",
+    github: "https://github.com/sneharkive/JobPortal-NextRole",
   },
   {
     title: "AI Fitness App (Microservices)",
@@ -64,6 +48,22 @@ const ProjectInfo = [
     link: "",
     github: "https://github.com/sneharkive/AI-FitnessAppMicro",
   },
+  {
+    title: "URL Shortener App",
+    desc: "A full-stack URL shortener application built with React.js and Spring Boot, enabling users to create, manage, and track shortened URLs. It features secure authentication using JWT, allowing users to log in and manage their links privately. The backend stores data in a MySQL database, and the frontend displays real-time analytics using Chart.js—showing how many times each shortened URL has been accessed. The app includes form validation, responsive design, and intuitive user experience for seamless link management and tracking.",
+    image: "Shortify.png",
+    live: true,
+    technologies: [
+      "React",
+      "Spring Boot",
+      "MySQL",
+      "JWT",
+      "Chart.js",
+      "Tailwind",
+    ],
+    link: "https://superb-rabanadas-2c2d83.netlify.app/",
+    github: "https://github.com/sneharkive/Shortify",
+  }
 ];
 
 const SkillInfo = [
